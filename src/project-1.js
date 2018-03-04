@@ -37,9 +37,9 @@ const lessThanNinety = (num) => {
 const greaterThanFifty = (num) => {
   // return true if num is greater than fifty
   // otherwise return false
- if (num > 50) {
-   return true;
- } return false;
+  if (num > 50) {
+    return true;
+  } return false;
 };
 
 const add = (x, y) => {
@@ -135,7 +135,7 @@ const getRectangleArea = (length, width) => {
 
 const getTriangleArea = (base, height) => {
   // return the area of the triangle by using base and height
-  return (base * height) / 2
+  return (base * height) / 2;
 };
 
 const getCircleArea = (radius) => {
