@@ -2,12 +2,12 @@
 
 const multiplyByTen = (num) => {
   // return num after multiplying it by ten
- return num * 10;
+  return num * 10;
 };
 
 const subtractFive = (num) => {
   // return num after subtracting five
- return num - 5;
+  return num - 5;
 };
 
 const areSameLength = (str1, str2) => {
@@ -78,9 +78,9 @@ const isEven = (num) => {
 const isOdd = (num) => {
   // return true if num is odd
   // otherwise return false
- if (num % 2 !== 0) {
-   return true;
- } return false;
+  if (num % 2 !== 0) {
+    return true;
+  } return false;
 };
 
 const square = (num) => {
